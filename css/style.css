@@ -1,0 +1,260 @@
+@import url('http://fonts.cdnfonts.com/css/voyager-grotesque');
+*{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Voyager Grotesque Bold', sans-serif; 
+    scroll-behavior: smooth;
+}
+.lan{
+    min-height: 100vh;
+    background: linear-gradient(#2b1055,#7597de);
+    overflow-x: hidden;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+#logo{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+header ul li a:hover{
+    background: #fff;
+    color: #2b1055 ;
+}
+.na{
+    font-size: 18px;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top,#1c0522,transparent);
+    z-index: 1000;
+}
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+section img#moon{
+    mix-blend-mode: screen;
+}
+section img#mountains_front{
+    z-index: 10;
+}
+#text{
+    position: absolute;
+    right: -350px;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 7.5vw;
+    z-index: 9;
+}
+#btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #fff;
+    color: #2b1055;
+    font-size: 1.5em;
+    z-index: 9;
+    transform: translateY(100px);
+}
+.sec{
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
+}
+.sec h2{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.sec p{
+    font-size: 1.2em;
+    color: #fff;
+}
+.sur{
+   
+    color: #fff;
+  
+}
+
+#demo{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 0px;
+    font-weight: 900;
+}
+
+.pran{
+    background-image: url("../img/LaunchBg.png");
+    
+}
+
+.bot{
+   
+   color: #fff;
+   backdrop-filter: blur(7px);
+}
+
+.dark{
+    color: white;
+    font-size: 25px;
+}
+.box{
+    padding-right: 45px;
+    padding-left: 45px;
+    backdrop-filter: blur(107px);
+}
+.footer{
+   
+    text-decoration: none;
+    backdrop-filter: blur(107px);
+
+}
+
+.bul{
+   background-image: url("../img/AboutUsBg.jpeg");
+}
+
+.para{
+    color: #fff;
+    font-size: 25px;
+    padding-right: 125px;
+    padding-left: 125px;
+    backdrop-filter: blur(20px);
+}
+
+.foo{
+    background-color: #1c0522;
+  
+}
+
+.srt{
+    color: #fff;
+    font-size: 25px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+.srt:hover{
+    color: #1c0522;
+    background-color: white;
+    border-radius: 25px;
+    
+}
+.srtp{
+    color: #fff;
+    font-size: 25px;
+    margin-left: 15px;
+   
+}
+.srtp:hover{
+    color: white;
+}
+
+.srts{
+    color: #fff;
+    font-size: 25px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.srts:hover{
+    color: #1c0522;
+    background-color: white;
+    border-radius: 25px;
+}
+.madh{
+    background-color: #1c0522;
+}
+.b1{
+    padding-right: 100px;
+    padding-left: 100px;
+    color: white;
+    font-size: 25px;
+}
+.he{
+    text-align: center;
+    font-size: 45px;
+}
+.sam{
+    text-decoration: none;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+}
+.sam:hover{
+    color: #1c0522;
+    border-radius: 25px;
+    text-decoration: none;
+}
+.foot{
+    text-decoration: none;
+    color: #fff;
+}
+.foot:hover{
+    color: #fff;
+}
+.bu{
+    opacity: 0.50;
+   
+}
+.bu:hover{
+    opacity: 1;
+    -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+    
+}
+.che{
+    color: white;
+    font-size: 38px;
+     margin-left: 15px;
+     text-decoration: none;
+  }
+  
